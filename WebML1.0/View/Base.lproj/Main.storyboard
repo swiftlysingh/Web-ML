@@ -388,8 +388,8 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="Fr5-qx-K4H">
                                 <rect key="frame" x="0.0" y="44" width="375" height="623"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3BJ-ME-NA3">
-                                <rect key="frame" x="58" y="527" width="258" height="64"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3BJ-ME-NA3">
+                                <rect key="frame" x="58" y="527" width="259" height="64"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="jmi-cs-3fh"/>
@@ -399,16 +399,19 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="submitPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qhM-sR-vsd"/>
+                                    <action selector="submitPressed:" destination="sza-RD-db0" eventType="touchUpInside" id="XPm-DJ-zYs"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Fr5-qx-K4H" firstAttribute="top" secondItem="apQ-BM-NHo" secondAttribute="top" id="1S0-B1-mxO"/>
+                            <constraint firstItem="3BJ-ME-NA3" firstAttribute="centerX" secondItem="Fr5-qx-K4H" secondAttribute="centerX" id="7nU-kY-L9m"/>
+                            <constraint firstItem="3BJ-ME-NA3" firstAttribute="leading" secondItem="apQ-BM-NHo" secondAttribute="leading" constant="58" id="Ads-2r-mlx"/>
                             <constraint firstItem="Fr5-qx-K4H" firstAttribute="trailing" secondItem="apQ-BM-NHo" secondAttribute="trailing" id="H63-9f-ast"/>
                             <constraint firstItem="Fr5-qx-K4H" firstAttribute="leading" secondItem="apQ-BM-NHo" secondAttribute="leading" id="HJo-NZ-Abz"/>
                             <constraint firstItem="Fr5-qx-K4H" firstAttribute="bottom" secondItem="apQ-BM-NHo" secondAttribute="bottom" id="jDL-dc-GcO"/>
+                            <constraint firstItem="3BJ-ME-NA3" firstAttribute="top" secondItem="apQ-BM-NHo" secondAttribute="top" constant="483" id="zVl-V4-7MX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="apQ-BM-NHo"/>
                     </view>
