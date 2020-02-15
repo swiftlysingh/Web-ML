@@ -46,7 +46,6 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="submitPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lkM-g4-4rf"/>
                                     <segue destination="sza-RD-db0" kind="show" id="vSs-En-LJF"/>
                                 </connections>
                             </button>
